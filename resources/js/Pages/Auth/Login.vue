@@ -15,7 +15,7 @@
         <button class="btn-primary w-full" type="submit">Login</button>
 
         <div class="mt-2 text-center">
-          <Link class="text-sm text-gray-500">
+          <Link :href="route('user-account.create')" class="text-sm text-gray-500">
             Need an account? Click here
           </Link>
         </div>
